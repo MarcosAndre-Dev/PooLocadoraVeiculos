@@ -61,12 +61,13 @@ public abstract class Veiculo {
 	
 	public abstract double CalcularValorAluguel(int dias);
 	
-	public void ExibirDados() {
-		System.out.println("===== DADOS DO VEÍCULO =====");
-		System.out.println("Placa: " + Placa);
-		System.out.println("Marca: " + Marca);
-		System.out.println("Modelo: " + Modelo);
-		System.out.println("Valor da diária: R$ " + ValorDiaria);
-		System.out.println("Disponível: " + (Disponivel ? "Sim" : "Não"));
+	public String ExibirDados() {
+		return
+			"Placa: " + Placa + "\n" +
+			"Marca: " + Marca + "\n" +
+			"Modelo: " + Modelo + "\n" +
+			"Valor diária: R$ " + ValorDiaria + "\n" +
+			"Disponível: " + (Disponivel ? "Sim" : "Não");
 	}
+
 }
