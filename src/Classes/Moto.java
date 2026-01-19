@@ -13,9 +13,8 @@ public class Moto extends Veiculo{
 		Cilindradas = cilindradas;
 	}
 
-	public Moto(String placa, String marca, String modelo, double valorDiaria, int cilindradas) {
+	public Moto(String placa, String marca, String modelo, double valorDiaria) {
 		super(placa, marca, modelo, valorDiaria);
-		this.Cilindradas = cilindradas;
 	}
 
 	@Override

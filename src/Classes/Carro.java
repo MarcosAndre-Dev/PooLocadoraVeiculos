@@ -4,9 +4,8 @@ public class Carro extends Veiculo {
 
 	private int QuantidadePortas;
 
-	public Carro(String placa, String marca, String modelo, double valorDiaria, int quantidadePortas) {
+	public Carro(String placa, String marca, String modelo, double valorDiaria) {
 		super(placa, marca, modelo, valorDiaria);
-		this.QuantidadePortas = quantidadePortas;
 	}
 
 	public int getQuantidadePortas() {
